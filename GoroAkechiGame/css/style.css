@@ -1,0 +1,40 @@
+body {
+	font-family: "Neuzeit", Geneva, sans-serif;
+}
+
+footer {
+	font-size: 10pt;
+}
+
+#stats {
+	position: fixed;
+	left: 720px;
+	top: 20px;
+	text-align: center
+}
+
+.popup {
+	width: 200px;
+	display: none;
+	position: fixed;
+	background-color: #fff;
+	left: 250px;
+	top: 200px;
+	padding: 10px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#howto {
+	width:auto;
+	display: none;
+	position: fixed;
+	background-color: #fff;
+	left: 50px;
+	top: 100px;
+	padding: 10px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	text-align: left;
+}

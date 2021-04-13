@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<title>Pancake Race!</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.js"></script>
+		<script src="js/script.js"></script>
+		<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+	</head>
+	
+	<body>
+		<div id="game">
+		</div>
+		<div id="stats">
+		<h2>Pancake Race!</h2> <br><br>
+			Level: <span id="lv">1</span> <br><br>
+			Caught: <span id="caught">0</span>/ <span id="max">20</span> <br>
+			Missed: <span id="missed">0</span>/ <span id="missmax">3</span> <br><br>
+			<h3>Score Goro: <span id="score">0</span></h3> <br><br>
+			<h3>Score Ren: <span id="score2">0</span></h3> <br><br>
+			
+			Click in the game field or press space to start or pause/unpause!<br><br>
+			<a href="#" onclick="showHowto()">How to play</a> <br>
+		</div>
+		<br><br>
+		
+		<div id="gameover" class="popup">
+		Game over! <br>
+		<br>
+		<b>The winner is: <span id="winner">Lorem ipsum</span></b><br><br>
+		<b>Final score: <span id="finalscore">0</span></b><br><br>
+		<br><button onclick="resetGame()">Play again?</button>
+		</div>
+		
+		<div id="newlevel" class="popup">
+		Level complete! <br><br>
+		Height bonus for Goro: <span id="heightbonus">0</span><br>
+		Neatness bonus for Goro: <span id="neatbonus">0</span><br>
+		Height bonus for Ren: <span id="heightbonus1">0</span><br>
+		Neatness bonus for Ren: <span id="neatbonus1">0</span><br><br>
+		
+		Click or press space to continue
+		</div>
+		
+		
+	</body>
